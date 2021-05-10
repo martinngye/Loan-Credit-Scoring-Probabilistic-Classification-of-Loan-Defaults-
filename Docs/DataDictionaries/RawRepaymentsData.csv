@@ -1,0 +1,7 @@
+﻿Column Index,Column Name,Type of Variable,"Values (range, levels, examples, etc)",Short Description,Joining Keys with Other data set
+1,ReportAsOfEOD,STRING,12/01/2021,Date of data extraction,
+2,loan_id,STRING,66AE108B-532B-4BB3-BAB7-0019A46412C1,A unique number given to a loan applications,
+3,Date,TIMESTAMP,12/05/2016,Date when the payment was made,
+4,PrincipalRepayment,FLOAT,20.35,The amount of principal repaid,
+5,InterestRepayment,FLOAT,61.88,The amount of interest paid,
+6,LateFeesRepayment,FLOAT,0,The amount of late charges paid,
