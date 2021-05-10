@@ -1,5 +1,7 @@
 # Loan Credit Scoring Probabilistic Classification of Loan Defaults
 
+Do take note of the license for this repo before you copy any work!  Please let me know if you have any suggestions or ideas to further improve the project!
+
 ## Introduction
 
 Traditionally, information from external credit bureau and extensive past payment behaviour is used heavily to develop credit scoring models which support the credit decisioning process of the lending function in banks. Alongside busines rules developed within the banks, the credit scores are then used to approve or deny credit applications.
@@ -23,13 +25,13 @@ Bondora's data was used as it provides a substaintial amount of loan data, conta
 
 In order to fit the narrative of the POC, Bondora's data is first processed into a suitable dataset (see [DataConstruction](Code/DataConstruction/DataConstructionFinal.ipynb)). Further [EDA](Code/EDA/POALoanDataEDA.ipynb) was carried out on the [processed dataset](Data/Processed/) and a SciKit-Learn preprocessing pipeline was [developed](Code/DataPrep/POAPreprocessing.ipynb) to consolidate all preprocessing steps to be carried out on the dataset into a pipeline to avoid data leakage.
 
-With the preprocessing pipeline built, binary probabilistic classification models were built and several techniques such as:
+With the preprocessing pipeline built, binary probabilistic classification modelling pipelines were built using SciKit-Learn and several techniques as:
 * Cross-validation
 * Hyperparameter tuning - Grid Search & Random Search
 * Probability Calibration
 * Under and Oversampling
 * Threshold Optimisation
-were carried out to develop and improve the models as seen [here](Code/Model/Modelling/Modelling.ipynb). 
+were further used to develop and improve the models as seen [here](Code/Model/Modelling/Modelling.ipynb). Models built as SciKit-learn's pipeline allows for future easy deployment into production.
 
 ## Conclusion
 
