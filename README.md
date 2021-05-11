@@ -1,4 +1,4 @@
-# Loan Credit Scoring Probabilistic Classification of Loan Defaults
+# Loan Credit Scoring: Probabilistic Classification of Loan Defaults
 
 Do take note of the license for this repo before you copy any work!  Please let me know if you have any suggestions or ideas to further improve the project!
 
